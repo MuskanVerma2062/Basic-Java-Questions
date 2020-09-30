@@ -1,0 +1,14 @@
+Ques. What is String subSequence method?
+
+	Java introduced CharSequence interface and String implements this interface, this is the only reason for the implementation of subSequence method in String class. Internally it invokes the String substring method.
+Check this post for String subSequence example.
+
+
+Ques. How to compare two Strings in java program?
+
+	Java String implements Comparable interface and it has two variants of compareTo() methods.
+
+compareTo(String anotherString) method compares the String object with the String argument passed lexicographically. If String object precedes the argument passed, it returns negative integer and if String object follows the argument String passed, it returns a positive integer. It returns zero when both the String have the same value, in this case equals(String str) method will also return true.
+
+compareToIgnoreCase(String str): This method is similar to the first one, except that it ignores the case. It uses String CASE_INSENSITIVE_ORDER Comparator for case insensitive comparison. If the value is zero then equalsIgnoreCase(String str) will also return true.
+Check this post for String compareTo example
