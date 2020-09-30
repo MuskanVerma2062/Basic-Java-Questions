@@ -1,0 +1,9 @@
+Ques. Write a function to find out longest palindrome in a given string?
+	A String can contain palindrome strings in it and to find longest palindrome in given String is a programming question.
+Check this post for complete program to find longest palindrome in a String.
+
+
+Ques. Difference between String, StringBuffer and StringBuilder?
+	The string is immutable and final in Java, so whenever we do String manipulation, it creates a new String. String manipulations are resource consuming, so java provides two utility classes for String manipulations – StringBuffer and StringBuilder.
+StringBuffer and StringBuilder are mutable classes. StringBuffer operations are thread-safe and synchronized where StringBuilder operations are not thread-safe. So in a multi-threaded environment, we should use StringBuffer but in the single-threaded environment, we should use StringBuilder.
+StringBuilder performance is fast than StringBuffer because of no overhead of synchronization.
